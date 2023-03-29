@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/Users/pedrocapriles/Documents/Postgrado/IngenieriaDeSoftware/semestre I/ciclo 2/Pruebas-automatizadas-de-software/Semana 1/ghost/ghost-cms-service/content/data/ghost.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/Users/pedrocapriles/Documents/Postgrado/IngenieriaDeSoftware/semestre I/ciclo 2/Pruebas-automatizadas-de-software/Semana 1/ghost/ghost-cms-service/content"
+  }
+}
